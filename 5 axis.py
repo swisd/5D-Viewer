@@ -1,4 +1,5 @@
 import keyboard
+from plyer import notification
 
 axis_x = 0
 axis_y = 0
@@ -12,6 +13,13 @@ w = axis_z
 nX = axis_w
 emF = axis_v
 
+
+notification.notify(
+        title='Five Axis Viewer (Python)',
+        message="Input Handling Started",
+        app_icon="C:\PyDev\Five Axis Viewer\Data\pyc.ico",
+        timeout=1,
+    )
 
 
 
